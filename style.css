@@ -82,6 +82,11 @@ a {
   align-items: center;
 	justify-content: space-around;
   overflow: hidden;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .umterco{
   height: 30%;
@@ -113,7 +118,6 @@ a.botaohome{
   display:flex;
   align-items: center;
 	justify-content: center;
-  overflow: hidden;
   font-size: 17px;
 	width: 250px;
 	text-align: center;
@@ -201,4 +205,102 @@ h2 {
   overflow-y: scroll;
   border: 1px solid gray;
   scroll-snap-type: y mandatory;
+}
+.forms{
+  height: 100%;
+  width: 450px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Outfit', sans-serif;
+  padding: 20px;
+  border-radius: 25px;
+  border: 5px double #232227;
+  background-color: rgba(60,59,64,0.4);
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.6) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.6) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.6) inset;
+  display:flex;
+	align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+input[type="submit"]{
+  font-size: 17px;
+	width: 120px;
+	text-align: center;
+  border: none;
+	padding: 10px;
+	color:#ffffff;
+  border-radius: 40px;
+	transition-duration: 0.5s;
+	overflow: hidden;
+  background-color: #232227;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+}
+input[type="submit"]:hover {
+	color:#ffffff;
+	overflow: hidden;
+  background-color: #2775fd;
+  box-shadow: 0px 0px 10px 3px rgba(39,117,253,0.75);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(39,117,253,0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(39,117,253,0.75);
+}
+input[type="reset"]{
+  font-size: 17px;
+	width: 120px;
+	text-align: center;
+  border: none;
+	padding: 10px;
+  margin-right: 20px;
+	color:#ffffff;
+  border-radius: 40px;
+	transition-duration: 0.5s;
+	overflow: hidden;
+  background-color: #232227;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+}
+input[type="reset"]:hover {
+	color:#ffffff;
+	overflow: hidden;
+  background-color: #2775fd;
+  box-shadow: 0px 0px 10px 3px rgba(39,117,253,0.75);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(39,117,253,0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(39,117,253,0.75);
+}
+input[type="text"] {
+  font-size: 17px;
+	width: 300px;
+	text-align: center;
+  border: none;
+	padding: 10px;
+	color:#ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #232227;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+}
+input[type="password"] {
+  font-size: 17px;
+	width: 300px;
+	text-align: center;
+  border: none;
+	padding: 10px;
+	color:#ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #232227;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+}
+input[type="checkbox"]::before {
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
