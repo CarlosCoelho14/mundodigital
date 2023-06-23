@@ -440,6 +440,13 @@ a.botaovoltar:hover{
 .imagembg{
   height: 100%;
 }
+.gif{
+  height: 85%;
+  border-radius: 20px;
+  filter: opacity(50%);
+  -webkit-filter: opacity(50%);
+  -moz-filter: opacity(50%);
+}
 .cinquenta{
   height: 80%;
   width: 50%;
@@ -453,4 +460,68 @@ a.botaovoltar:hover{
   align-items: center;
 	justify-content: center;
   overflow: hidden;
+}
+img.giff{
+  width: 80%;
+  border-radius: 20px;
+  transition-duration: 0.7s;
+}
+img.giff:hover{
+  width: 90%;
+  filter: drop-shadow(0px 0px 10px rgba(39,117,253,0.9));
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(39,117,253,0.9));
+  -moz-filter: drop-shadow(0px 0px 10px rgba(39,117,253,0.9));
+}
+.boxx{
+  height: 90%;
+  width: 90%;
+  font-family: 'Outfit', sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+.nome{
+  height: 15%;
+  width: 100%;
+  font-size: 40px;
+  padding: 20px;
+  font-family: 'Outfit', sans-serif;
+  color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #3c3b40;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.6) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.6) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.6) inset;
+}
+.poema{
+  height: 85%;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Outfit', sans-serif;
+  color: #ffffff;
+  overflow: scroll;
+  display: flex;
+  background-color: #232227;
+  box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+  -moz-box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.4) inset;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3c3b40 #232227;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #232227;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #3c3b40;
+  border-radius: 20px;
+  border: 3px solid #232227;
 }
